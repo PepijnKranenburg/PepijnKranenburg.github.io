@@ -1,0 +1,5 @@
+Student name: Pepijn Kranenburg	
+Student number: 641394
+Student class: Inf1A
+URL student GitHub website: https://PepijnKranenburg.github.io 
+URL student GitHub repository: https://github.com/PepijnKranenburg/PepijnKranenburg.github.io
