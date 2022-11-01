@@ -1,0 +1,259 @@
+@media screen and (min-width: 1280px)
+	/* Pc version */
+	{
+	body
+		{
+		width: 1400px;
+		background-color: grey;
+		}
+	
+	.mainSection 
+		{		
+		background-color: yellow;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0px 250px;
+		}
+		
+	.video 
+		{
+		width: 550px;
+		order: 1;
+		}
+		
+	.article1
+		{
+		background-color: green;
+		width: 700px;
+		order: 2;
+		}
+		
+	.article2
+		{
+		background-color: green;
+		width: 700px;
+		order: 4;
+		}
+		
+	.article3
+		{
+		background-color: green;
+		width: 700px;
+		order: 5;
+		}	
+
+	.asideRoutes
+		{
+		background-color: red;
+		width: 400px;	
+		order: 3;
+		}
+		
+	.footerArticle 
+		{
+		margin-left: auto;
+		}
+		
+	.footerArticle figure
+		{
+		margin-left: auto;
+		width: 250px;		
+		}	
+		
+	.footerArticle img
+		{		
+		width: 250px;		
+		}
+
+	.footerBottem
+		{
+		display: flex;
+		}
+	
+	#copyright
+		{
+		background-color: blue;
+		flex-basis: 70%;
+		flex-shrink: 0;
+		flex-grow: 0;		
+		}
+	#cookie
+		{
+		background-color: #FA0;
+		color: #FFF;
+		opacity: 0.5;
+		flex-basis: 30%;
+		flex-shrink: 0;
+		flex-grow: 0;		
+		}
+	}
+
+@media screen and (min-width: 481px) and (max-width: 1279px)
+	/* Tablet version */
+	{
+	body
+		{
+		width: 750px;
+		background-color: brown;
+		}
+	
+	.mainSection 
+		{		
+		background-color: yellow;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0px 250px;
+		}
+		
+	.video 
+		{
+		width: 550px;
+		order: 2;
+		}
+		
+	.article1
+		{
+		background-color: green;
+		order: 5;
+		}
+		
+	.article2
+		{
+		background-color: green;		
+		order: 4;
+		}
+		
+	.article3
+		{
+		background-color: green;		
+		order: 3;
+		}	
+
+	.asideRoutes
+		{
+		background-color: red;			
+		order: 1;
+		}
+		
+	.footerArticle 
+		{
+		margin-left: auto;
+		}
+		
+	.footerArticle figure
+		{
+		margin-left: auto;
+		width: 250px;		
+		}	
+		
+	.footerArticle img
+		{		
+		width: 250px;		
+		}
+
+	.footerBottem
+		{
+		display: flex;
+		}
+	
+	#copyright
+		{
+		background-color: blue;
+		flex-basis: 70%;
+		flex-shrink: 0;
+		flex-grow: 0;		
+		}
+	#cookie
+		{
+		background-color: #FA0;
+		color: #FFF;
+		opacity: 0.5;
+		flex-basis: 30%;
+		flex-shrink: 0;
+		flex-grow: 0;		
+		}
+	}
+
+@media screen and (max-width: 480px)
+	/* Mobile version */
+	{
+	body
+		{
+		width: 460px;
+		background-color: pink;
+		}
+	.mainSection 
+		{		
+		background-color: yellow;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0px 250px;
+		}
+		
+	.video 
+		{
+		display: none;
+		}
+		
+	.article1
+		{
+		background-color: green;		
+		order: 4;
+		}
+		
+	.article2
+		{
+		background-color: green;		
+		order: 3;
+		}
+		
+	.article3
+		{
+		background-color: green;	
+		order: 2;
+		}	
+
+	.asideRoutes
+		{
+		background-color: red;		
+		order: 1;
+		}
+		
+	.footerArticle 
+		{
+		margin-left: auto;
+		}
+		
+	.footerArticle figure
+		{
+		margin-left: auto;
+		width: 250px;		
+		}	
+		
+	.footerArticle img
+		{		
+		width: 250px;		
+		}
+
+	.footerBottem
+		{
+		display: flex;
+		}
+	
+	#copyright
+		{
+		background-color: blue;
+		flex-basis: 70%;
+		flex-shrink: 0;
+		flex-grow: 0;		
+		}
+	#cookie
+		{
+		background-color: #FA0;
+		color: #FFF;
+		opacity: 0.5;
+		flex-basis: 30%;
+		flex-shrink: 0;
+		flex-grow: 0;		
+		}
+	}
