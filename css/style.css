@@ -6,6 +6,14 @@
 		width: 1400px;
 		background-color: grey;
 		}
+	table, th, td	
+		{
+		border: 1px solid black;
+		}
+	.mobileNavigation
+		{
+		display: none;
+		}
 	
 	.mainSection 
 		{		
@@ -49,6 +57,23 @@
 		order: 3;
 		}
 		
+	.asidePricing
+		{
+		background-color: red;
+		width: 400px;	
+		}
+		
+	.asidePricing figure
+		{
+		width: 350px;
+		margin: 4px;
+		}
+		
+	.asidePricing img
+		{
+		width: 350px;
+		}
+		
 	.footerArticle 
 		{
 		margin-left: auto;
@@ -68,6 +93,40 @@
 	.footerBottem
 		{
 		display: flex;
+		}
+		
+	.contactSection 
+		{		
+		background-color: yellow;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0px 250px;
+		}
+		
+	.asideContact
+		{
+		background-color: red;
+		width: 400px;	
+		}
+		
+	.asideContact figure
+		{
+		width: 350px;
+		margin: 4px;
+		}
+		
+	.asideContact img
+		{
+		width: 350px;
+		}
+	
+	form	
+		{
+		width: 700px;
+		}
+	.formlist	
+		{
+		list-style: none;
 		}
 	
 	#copyright
@@ -96,7 +155,16 @@
 		width: 750px;
 		background-color: brown;
 		}
-	
+			
+	table, th, td	
+		{
+		border: 1px solid black;
+		}
+		
+	.mobileNavigation
+		{
+		display: none;
+		}
 	.mainSection 
 		{		
 		background-color: yellow;
@@ -134,15 +202,63 @@
 		background-color: red;			
 		order: 1;
 		}
+	
+	.asidePricing
+		{
+		background-color: red;
+		width: 650px;	
+		display: flex;
+		flex-wrap: wrap;
+
+		}
 		
+	.asidePricing figure
+		{
+		width: 300px;
+		margin: 4px;
+		}
+		
+	.asidePricing img
+		{
+		width: 300px;
+		}
+		
+	.asideFigure1
+		{
+		display: none;
+		}
+		
+	.contactSection 
+		{		
+		background-color: yellow;
+		display: flex;
+		flex-wrap: wrap;
+		}
+
+	.asideContact
+		{
+		background-color: red;
+		width: 300px;	
+		}
+		
+	.asideContact figure
+		{
+		width: 250px;
+		margin: 4px;
+		}
+	.asideContact img
+		{
+		width: 250px;
+		}
+	
 	.footerArticle 
 		{
-		margin-left: auto;
+		margin-right: auto;
 		}
 		
 	.footerArticle figure
 		{
-		margin-left: auto;
+		margin-right: auto;
 		width: 250px;		
 		}	
 		
@@ -155,7 +271,12 @@
 		{
 		display: flex;
 		}
-	
+		
+	.formlist	
+		{
+		list-style: none;
+		}
+		
 	#copyright
 		{
 		background-color: blue;
@@ -163,6 +284,7 @@
 		flex-shrink: 0;
 		flex-grow: 0;		
 		}
+		
 	#cookie
 		{
 		background-color: #FA0;
@@ -182,6 +304,95 @@
 		width: 460px;
 		background-color: pink;
 		}
+	table, th, td	
+		{
+		border: 1px solid black;
+		}	
+	.mainHeader 	
+		{
+		background-color: yellow;
+		display: flex;
+		flex-wrap: wrap;
+		}
+		
+	.firstTitle
+		{
+		background-color: green;		
+		order: 1;
+		flex-basis: 70%;
+		flex-shrink: 0;
+		flex-grow: 0;
+		}
+		
+	.secondTitle
+		{
+		background-color: green;		
+		order: 3;
+		}
+		
+	.mobileNavigation
+		{
+		background-color: green;		
+		order: 2;
+		flex-basis: 30%;
+		flex-shrink: 0;
+		flex-grow: 0;
+		}
+	
+	.normalNavigation
+		{
+		display: none;
+		}
+		
+	.menu
+		{
+		display:none;
+		list-style: square;
+		}
+	
+	.hamburger
+		{
+		position: absolute;
+		}
+		
+	.hamburgercheck
+		{
+		position: relative;
+		opacity: 0;
+		width: 50px;
+		height: 50px;
+		z-index: 9999;
+		}
+		
+	.open
+		{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 50px;
+		height: 50px;
+		z-index: 8999;
+		}
+		
+	.close
+		{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 50px;
+		height: 50px;	
+		z-index: 7999;
+		}
+		
+	.hamburgercheck:checked ~ .open
+		{
+			display:none;
+		}	
+	.hamburgercheck:checked ~ .menu
+		{
+			display:block;
+		}		
+		
 	.mainSection 
 		{		
 		background-color: yellow;
@@ -218,15 +429,32 @@
 		background-color: red;		
 		order: 1;
 		}
+	
+	.asidePricing
+		{
+		background-color: red;
+		width: 420px;
+		}
 		
+	.asidePricing figure
+		{
+		width: 350px;
+		margin: 4px;
+		}
+		
+	.asidePricing img
+		{
+		width: 350px;
+		}
+	
 	.footerArticle 
 		{
-		margin-left: auto;
+		margin: auto;
 		}
 		
 	.footerArticle figure
 		{
-		margin-left: auto;
+		margin: auto;
 		width: 250px;		
 		}	
 		
@@ -239,7 +467,37 @@
 		{
 		display: flex;
 		}
+		
+	.contactSection 
+		{		
+		background-color: yellow;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0px 250px;
+		}
 	
+	.asideContact
+		{
+		background-color: red;
+		width: 420px;
+		}
+		
+	.asideContact figure
+		{
+		width: 350px;
+		margin: 4px;
+		}
+		
+	.asideContact img
+		{
+		width: 350px;
+		}
+		
+	.formlist	
+		{
+		list-style: none;
+		}
+			
 	#copyright
 		{
 		background-color: blue;
@@ -247,6 +505,7 @@
 		flex-shrink: 0;
 		flex-grow: 0;		
 		}
+		
 	#cookie
 		{
 		background-color: #FA0;
